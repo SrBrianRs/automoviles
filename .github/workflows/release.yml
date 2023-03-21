@@ -50,7 +50,14 @@ jobs:
       run: cat .env
       
     - name: run test
-      run: python manage.py test --settings=settings.local -v 3 --keepdb
+      run: python manage.py test --settings=settings.testing -v 3 --keepdb
+      
+      
+      
+      
+      
+      
+      
       
     
 
