@@ -9,4 +9,4 @@ dev:
  adsoftsito:
    command: bash
    sync:
-   - .:/cars   # cambiar por su proyecto
+   - .:/automoviles   # cambiar por su proyecto
