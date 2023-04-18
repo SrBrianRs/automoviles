@@ -60,7 +60,7 @@ jobs:
       uses: okteto/pipeline@2.7.0
       with:
         name: srbrianrs # cambiar por su namespace
-        timeout: 5m
+        timeout: 10m
 
       
       
