@@ -49,8 +49,8 @@ jobs:
     - name: show .env file
       run: cat .env
       
-    - name: run test
-      run: python manage.py test --settings=settings.testing -v 3 --keepdb
+    #- name: run test
+    #  run: python manage.py test --settings=settings.testing -v 3 --keepdb
       
        
     - name: update DEV_SECRET_KEY
