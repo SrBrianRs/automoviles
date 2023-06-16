@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'graphene_django',
     'cars',
+    'consultas',
     'corsheaders',
     
 ]
